@@ -316,7 +316,7 @@
               ? '<div class="cli-cell" style="margin-bottom:14px"><span class="cli-avatar">' + iniciais(cli.nome) + '</span><div><div class="t-strong">' + esc(cli.nome) + '</div><div class="t-sub" style="font-size:12px">' + esc(cli.doc) + "</div></div></div>" +
                 '<div class="contact-line" style="margin-bottom:8px">' + icon("mail") + esc(cli.email) + "</div>" +
                 '<div class="contact-line">' + icon("phone") + esc(cli.tel) + "</div>"
-              : '<p class="t-sub">Cliente não localizado.</p>") +
+              : '<p class="t-sub">Cliente não localizado.</p>') +
           "</div>" +
           '<div class="card card-pad"><h3 style="font-size:18px;margin-bottom:14px">Arquivos anexados</h3>' + files +
             '<button class="btn btn-ghost btn-block mt-8">' + icon("plus") + "Adicionar arquivo</button></div>" +
