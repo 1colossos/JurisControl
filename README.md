@@ -148,6 +148,14 @@ Depois acesse **http://localhost:8080**.
 ### Acesso
 A tela de login já vem com credenciais de demonstração preenchidas — clique em **Entrar** (ou em **"Ver demonstração"**) para acessar o painel.
 
+### Publicação (deploy)
+Há um script que envia o projeto ao GitHub e ativa o GitHub Pages:
+
+```bash
+./deploy.sh
+```
+Ele pede seu usuário e um **Personal Access Token** (escopo `repo`) — o token **não** é salvo em disco. Ao final, o site fica disponível em `https://1colossos.github.io/JurisControl/`.
+
 ---
 
 ## 🗺️ Mapa de navegação
