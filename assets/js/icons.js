@@ -1,5 +1,5 @@
 /* ============================================================
-   JurisAlerta — Biblioteca de ícones (SVG inline, traço único)
+   JurisControl — Biblioteca de ícones (SVG inline, traço único)
    Uso: icon("dashboard", "ic") devolve o markup do <svg>.
    ============================================================ */
 (function () {

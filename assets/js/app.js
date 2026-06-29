@@ -1,5 +1,5 @@
 /* ============================================================
-   JurisAlerta — Roteador (hash router) e interações globais
+   JurisControl — Roteador (hash router) e interações globais
    ============================================================ */
 (function () {
   "use strict";

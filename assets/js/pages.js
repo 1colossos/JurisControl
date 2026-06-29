@@ -1,5 +1,5 @@
 /* ============================================================
-   JurisAlerta — Renderizadores de telas (9 telas do TCC)
+   JurisControl — Renderizadores de telas (9 telas do TCC)
    Cada função devolve o HTML da tela. O estado de filtros vive
    em JA_STATE; o roteador (app.js) decide qual tela montar.
    ============================================================ */
@@ -34,7 +34,7 @@
             "<h1>Nenhum prazo perdido.<span class=\"accent\">Toda atenção ao caso.</span></h1>" +
             '<p class="lead">Controle inteligente de prazos processuais com contagem em dias úteis, alertas cromáticos de urgência e integração com calendários oficiais.</p>' +
           "</div>" +
-          '<div class="login-foot">© 2026 JurisAlerta. Todos os direitos reservados.</div>' +
+          '<div class="login-foot">© 2026 JurisControl. Todos os direitos reservados.</div>' +
         "</aside>" +
         '<main class="login-main">' +
           '<form class="login-form" data-form="login">' +
@@ -575,7 +575,7 @@
           '<div class="form-2col">' +
             field("Servidor SMTP", "smtp.gmail.com") + field("Porta", "587", "number") +
             field("Usuário", "alertas@carvalhoadvogados.com.br", "email") + fieldPass("Senha / App password", "••••••••••") +
-            field("E-mail do remetente", "alertas@carvalhoadvogados.com.br", "email") + field("Nome do remetente", "JurisAlerta") +
+            field("E-mail do remetente", "alertas@carvalhoadvogados.com.br", "email") + field("Nome do remetente", "JurisControl") +
           "</div>" +
           '<button class="btn btn-ghost mt-16">' + icon("checkCircle") + "Testar conexão</button></div>";
     } else if (tab === "whatsapp") {

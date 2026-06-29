@@ -1,5 +1,5 @@
 /* ============================================================
-   JurisAlerta — Componentes de UI compartilhados e utilidades
+   JurisControl — Componentes de UI compartilhados e utilidades
    ============================================================ */
 (function () {
   "use strict";
@@ -45,8 +45,8 @@
   function brand(dark) {
     return (
       '<a href="#/dashboard" class="brand-logo">' +
-        '<img src="assets/img/favicon.svg" alt="JurisAlerta" />' +
-        "<span><span class=\"bt\">JurisAlerta</span><br><span class=\"bs\">Gestão Jurídica</span></span>" +
+        '<img src="assets/img/favicon.svg" alt="JurisControl" />' +
+        "<span><span class=\"bt\">JurisControl</span><br><span class=\"bs\">Gestão Jurídica</span></span>" +
       "</a>"
     );
   }

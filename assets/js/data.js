@@ -1,5 +1,5 @@
 /* ============================================================
-   JurisAlerta — Camada de dados (mock)
+   JurisControl — Camada de dados (mock)
    Dados fictícios coerentes com o wireframe do TCC. Servem para
    demonstrar a interface; em produção viriam de uma API/back-end.
    ============================================================ */

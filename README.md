@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/img/favicon.svg" width="84" alt="JurisAlerta" />
+<img src="assets/img/favicon.svg" width="84" alt="JurisControl" />
 
-# ⚖️ JurisAlerta
+# ⚖️ JurisControl
 
 ### Sistema Web de Controle e Notificação de Prazos Processuais
 
@@ -38,7 +38,7 @@ Plataforma de gestão jurídica voltada a advogados autônomos de **São Luís**
 
 ## 🎯 Sobre o projeto
 
-O **JurisAlerta** centraliza, em um único ambiente, o acompanhamento de **processos**, **clientes** e **prazos processuais**, reduzindo o risco de perda de prazos — uma das principais causas de responsabilização do advogado.
+O **JurisControl** centraliza, em um único ambiente, o acompanhamento de **processos**, **clientes** e **prazos processuais**, reduzindo o risco de perda de prazos — uma das principais causas de responsabilização do advogado.
 
 Este repositório contém a **implementação completa do front-end** desenvolvida como atividade da disciplina de **Desenvolvimento Web** do curso de **Análise e Desenvolvimento de Sistemas** da **Universidade Estadual do Maranhão (UEMA) – Campus Itapecuru-Mirim**.
 
