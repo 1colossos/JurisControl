@@ -1,35 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JurisControl — Gestão Jurídica de Prazos Processuais</title>
-  <meta name="description" content="JurisControl: sistema web de controle e notificação de prazos processuais para advogados autônomos." />
-  <meta name="theme-color" content="#0e1a36" />
-
-  <!-- Tipografia -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
-  <!-- Toda a aplicação é renderizada aqui pelo roteador -->
-  <div id="app" aria-live="polite"></div>
-
-  <!-- Camada de notificações (toasts) -->
-  <div id="toast-layer" class="toast-layer" aria-live="assertive"></div>
-
-  <!-- Camada de modais -->
-  <div id="modal-root"></div>
-
-  <!-- Scripts (ordem importa: dados → ícones → ui → páginas → app) -->
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/icons.js"></script>
-  <script src="assets/js/ui.js"></script>
-  <script src="assets/js/pages.js"></script>
-  <script src="assets/js/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e1a36" />
+    <meta
+      name="description"
+      content="JurisControl — controle inteligente de prazos processuais em dias úteis, com alertas cromáticos de urgência e notificações automatizadas."
+    />
+    <title>JurisControl — Gestão Jurídica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
