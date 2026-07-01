@@ -54,7 +54,10 @@ disponível em `https://1colossos.github.io/JurisControl/`.
 ## 👥 Autores
 
 - Afonso Gabriel
+`https://github.com/1colossos`
 - Andrey de Sousa
+`https://github.com/AndreyNicollas`
 - Adrian Raul
+  `https://github.com/adrianRaulDev`
 
 Orientação: Prof. Wesley Batista Dominices de Araujo.
